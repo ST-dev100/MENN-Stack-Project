@@ -1,8 +1,11 @@
 // components/LoadingSpinner.js
 const LoadingSpinner = () => {
     return (
-      <div className="flex items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500">
-        <div className="loader ease-linear rounded-full border-8 border-t-8 border-white h-32 w-32 shadow-lg">
+      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500 p-4">
+        <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-4 animate-pulse text-center">
+            Walia Song Albums Website
+        </h1>
+        <div className="loader ease-linear rounded-full border-8 border-t-8 border-white h-24 w-24 sm:h-32 sm:w-32 shadow-lg">
           <style jsx>{`
             .loader {
               animation: spinner 1.2s linear infinite;
